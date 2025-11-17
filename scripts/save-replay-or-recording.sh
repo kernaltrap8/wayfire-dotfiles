@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
+exec >> info.log 2> err.log
+
 if pgrep -x wf-recorder >/dev/null; then
   pkill wf-recorder
 else
-  "$PWD/save-replay.sh"
+  "$HOME/.config/wayfire/scripts/save-replay.sh"
 fi
