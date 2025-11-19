@@ -1,4 +1,4 @@
 #!/bin/bash
 
 kill $(pgrep -x waybar)
-exec "$HOME/scripts/start-waybar.sh"
+exec "$HOME/.config/wayfire/scripts/start-waybar.sh"
