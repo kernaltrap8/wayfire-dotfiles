@@ -25,5 +25,5 @@ spawn "$HOME/.local/share/Discord/Discord"
 spawn keepassxc
 spawn SFP_UI
 spawn "$HOME/.config/wayfire/scripts/musicplayer-startup.sh"
-
+spawn protonvpn-app
 exit
